@@ -4,14 +4,18 @@ void setup() {
 }
 
 //🎯Variable Declarations Go Here
-
+var boatx=0;
+var ellipsex=0;
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
  
   background(255,255,255,0);
   
-
+  rect(boatx,300,300,100,300);
+ fill(92, 64, 51);
+ boatx+=1;
+ellipse(100,300,100,100);
 
 
 
@@ -33,4 +37,6 @@ showXYPositions = function(){
     fill(255, 255, 255)
     ellipse(mouseX, mouseY, 10, 10);
     fill(255,255,255)
+
+    
 }
