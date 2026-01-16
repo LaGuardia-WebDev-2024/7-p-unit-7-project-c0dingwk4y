@@ -15,10 +15,10 @@ draw = function(){
    fill(92, 64, 51);
   rect(boatx,300,300,100,300); //boat
  boatx+=1;
- fill(52, 155, 235);
-ellipse(100,ellipsex,40,100); //rain
+ fill(255, 234, 0);
+ellipse(100,ellipsex,100,100); //sun1 
 ellipsex+=1;
-ellipse(ellipsey,300,40,100); //rain
+ellipse(ellipsey,100,100,100); //sun2
 ellipsey+=1;
 
 
